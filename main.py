@@ -6,6 +6,7 @@ from models import Base, Book, Review
 from database import engine, get_db
 from pydantic import BaseModel
 import uvicorn
+#without llm
 
 app = FastAPI()
 
